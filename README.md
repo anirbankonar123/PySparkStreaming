@@ -1,6 +1,7 @@
 # PySparkStreaming <br>
 Reads streaming data from twitter and displays aggregated bar plots based on hashtags <br>
 
+<b>Twitter account setup:</b><br>
 Set up an account at developer.twitter.com, accept the agreement and click defaults, provide reason for your account etc<br>
 Then create an app, and setup the credentials for a twitter app at https://developer.twitter.com/en/apps, ex: https://anirbank.twitter.com<br>
 
@@ -17,7 +18,7 @@ pip install findspark<br>
 pip install python-twitter - a python library to connect your Python to the twitter dev account.<br>
 pip install tweepy<br>
 
-Setup following env vars:<br>
+<b>Setup following env vars:</b><br>
 export SPARK_HOME=.... (path where the spark-2.1.1-bin-hadoop2.7 is extracted)<br>
 export PATH = $SPARK_HOME:$PATH<br>
 export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH<br>
